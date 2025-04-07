@@ -2,7 +2,11 @@
     padding:0;
     border:0;
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
 header{
+    max-height: 450px;
+    background-image: url("../img/aaron-burden-unsplash.jpg");
+    background-size: cover;
     text-align: center;
 }
