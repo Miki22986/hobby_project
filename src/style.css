@@ -61,11 +61,7 @@ h2{
     font-weight: bolder;
     margin:20px
 }
-img{ 
-    max-width:400px;
-    padding: 5px;
-    border: 1px solid black;
-}
+
 h4{
     font-size: 30px;
     opacity: 0.8;
@@ -92,6 +88,9 @@ p{
 #primo_libro{
     display: block;
     margin: auto;
+    max-width:400px;
+    padding: 5px;
+    border: 1px solid black;
 }
 
 /* section 2 */
@@ -114,3 +113,26 @@ p{
     margin-top: 15px;
     font-style: italic;
 }
+.card > img{
+    max-width:400px;
+    padding: 5px;
+    border: 1px solid black; 
+}
+
+/* terza sezione */
+.img_cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.img_card > img{
+    max-width: 300px;
+}
+/* footer */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 100px;
+} 
