@@ -132,7 +132,7 @@ p{
 /* footer */
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 50px;
     padding: 100px;
 } 
