@@ -128,6 +128,13 @@ p{
 }
 .img_card > img{
     max-width: 300px;
+    margin: auto;
+}
+.img_card{
+    text-align: center;
+}
+.title_card{
+    font-size: 20px;
 }
 /* footer */
 footer{
