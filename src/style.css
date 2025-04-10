@@ -128,7 +128,8 @@ p{
 }
 .img_card > img{
     max-width: 300px;
-    margin: auto;
+    margin: 10px auto;
+
 }
 .img_card{
     text-align: center;
