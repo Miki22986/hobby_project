@@ -40,11 +40,13 @@ header{
     min-height: 500px;
     background-image: url("../img/Tian_Guan_Ci_Fu-cover.jpg");
     background-size: cover;
+    filter: contrast(120%);
     color: white;
 }
 h1{
     font-size: 100px;
     margin-bottom: 20px;
+    filter: none;
 }
 header > .container{
     justify-content: center;
