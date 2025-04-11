@@ -142,10 +142,15 @@ p{
 /* terza sezione parte 2 */
 .img_cards_second{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
 }
-
+.cards_fourth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 0 2rem;
+}
 /* footer */
 footer{
     display: grid;
