@@ -1,5 +1,6 @@
 :root{
     --primary-color:  rgb(104, 24, 24);
+    --rose-color: rgb(253, 201, 201);
 }
 *{
     padding:0;
@@ -16,7 +17,7 @@ img{
     width: 100%;
 }
 .second_sec, footer{
-    background-color: rgb(253, 201, 201);
+    background-color: var(--rose-color);
     padding: 50px;
 }
 .container{
@@ -49,7 +50,7 @@ header > .container{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 4rem;
     background-color: rgba(0, 0, 0, 0.4);
 }
 .subtitle{
@@ -71,11 +72,6 @@ h2{
     margin:20px
 }
 
-h4{
-    font-size: 30px;
-    opacity: 0.8;
-    margin-bottom: 10px;
-}
 p{
     font-size: 20px;
 }
@@ -104,10 +100,9 @@ p{
 
 /* section 2 */
 
-
 .card{
     background-color: white;
-    border: 1px solid  var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 5px;
     align-items: center;
     padding: 15px;
@@ -137,10 +132,20 @@ p{
     border: 1px solid var(--primary-color);
     padding: 5px;
     margin: 10px auto;
+    background-color: var(--rose-color);
+    max-width: 350px;
 }
 .title_card{
     font-size: 20px;
+    margin-top: 1rem;
 }
+/* terza sezione parte 2 */
+.img_cards_second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
 /* footer */
 footer{
     display: grid;
@@ -148,13 +153,12 @@ footer{
     grid-gap: 50px;
     padding: 5rem;
 } 
-
-@media screen and (max-width: 700px) { 
-    *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+.column > a{
+    display: block;
+    font-size: 18px;
+    margin-top: 1rem;
 }
+@media screen and (max-width: 700px) { 
     h1{
         font-size: 60px;
     }
